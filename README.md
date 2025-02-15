@@ -15,7 +15,9 @@ Model Performance and Selection
 Each model was evaluated using Accuracy, Precision, Recall, F1-Score, and AUC-ROC scores. The results indicated the following:
 
 •	XGBoost achieved the highest performance with a strong AUC-ROC score, demonstrating its ability to capture fraudulent patterns effectively.
+
 •	Logistic Regression performed well but showed lower recall compared to XGBoost, indicating a slightly higher rate of missed fraud cases.
+
 •	Isolation Forest, as an unsupervised approach, struggled with precision and recall, demonstrating the challenges of detecting fraud without labeled data.
  
 Improvements Made
