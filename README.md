@@ -1,4 +1,4 @@
-This project  highlights credit card fraud by training Machine Learning models on data sourced from Kaggle. The Kaggle Credit Card Fraud Detection dataset is utilized, which contains highly imbalanced classes with only 0.17% fraudulent transactions.
+This project  highlights credit card fraud by training Machine Learning models on data sourced from Kaggle (**https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data**). The Kaggle Credit Card Fraud Detection dataset is utilized, which contains highly imbalanced classes with only 0.17% fraudulent transactions.
 
 Methodology
 The dataset was preprocessed by standardizing the numerical features using StandardScaler. Given the class imbalance, Synthetic Minority Over-sampling Technique (SMOTE) was employed to balance the dataset before training supervised models. The dataset was split into training and validation sets (80%-20%).
